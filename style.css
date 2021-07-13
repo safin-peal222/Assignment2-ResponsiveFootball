@@ -1,9 +1,68 @@
-/* top banner */
-.banner-image {
-  height: 438px;
-  width: 556px;
+/* import fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+/* common styles */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
+
+/* top banner */
 .top-banner {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  background-color: #2d25a0;
+}
+.banner-left {
+  margin-left: 186px;
+  margin-top: 198px;
+}
+.banner-left-header {
+  width: 485px;
+  height: 230px;
+}
+.banner-left-header h1 {
+  color: white;
+}
+.button a {
+  text-decoration: none;
+  color: white;
+  background-color: #e02c6d;
+  padding: 5px 10px;
+  font-size: 16px;
+  transition: all 0.5s ease-in-out;
+}
+.button a:hover {
+  background-color: tomato;
+  box-shadow: 2px 2px 10px 3px gray;
+  font-weight: 400;
+  transform: scale(1.1);
+  font-size: 18px;
+}
+.button {
+  margin-top: 36px;
+}
+.banner-image {
+  height: 438px;
+  width: 556px;
+  margin-right: 140px;
+  margin-top: 153px;
+  transition: all 0.5s ease;
+  margin-bottom: 86px;
+}
+.banner-image:hover {
+  transform: scale(1.1);
+}
+/* top players */
+.top-players {
+  margin-top: 70px;
+}
+.player-image img {
+  width: 300px;
+  height: 256px;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
