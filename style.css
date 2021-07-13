@@ -1,0 +1,9 @@
+/* top banner */
+.banner-image {
+  height: 438px;
+  width: 556px;
+}
+.top-banner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
