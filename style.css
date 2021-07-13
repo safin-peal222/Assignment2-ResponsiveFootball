@@ -74,13 +74,30 @@ body {
   grid-column-gap: 30px;
   grid-row-gap: 27px;
 }
-.player {
-  border: 10px solid white;
+.box {
+  border: 5px solid white;
   width: 330px;
   height: 474px;
-  box-shadow: 5px 5px 5px 1px gray;
-  transition: all 1s ease;
+  box-shadow: -5px -5px 5px 1px gray;
+  transition: all 0.3s ease;
 }
-.player:hover {
-  transform: scale(1.1);
+.box:hover {
+  transform: scale(1.05);
+}
+.player {
+  margin: 15px;
+}
+
+.player-info {
+  width: 300px;
+
+  text-align: justify;
+}
+.player-info h3 {
+  margin: 16px 0 0 0;
+}
+.player-info p {
+  font-size: 16px;
+  color: #6c6c6c;
+  margin-top: 10px;
 }
