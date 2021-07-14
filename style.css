@@ -63,7 +63,9 @@ body {
   transform: scale(1.1);
 }
 /* top players */
-.top-players {
+.top-players,
+.our-partners,
+.Womens-Football {
   margin-top: 70px;
 }
 .player-image img {
@@ -103,7 +105,34 @@ body {
   color: #6c6c6c;
   margin-top: 10px;
 }
+/* Partners Section */
+.our-partners .partners {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 200px;
+  grid-row-gap: 100px;
+}
+.section-title {
+  color: #2d25a0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.section-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-info p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: #6c6c6c;
 
+  text-align: center;
+}
 /* footer section */
 
 .footer-section {
@@ -177,6 +206,11 @@ body {
     width: 275px;
     margin-top: 43px;
   }
+  .our-partners .partners {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
 }
 
 /* tablet devices */
@@ -190,5 +224,10 @@ body {
   }
   .players {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .our-partners .partners {
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 50px;
   }
 }
