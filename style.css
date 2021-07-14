@@ -39,7 +39,7 @@ body {
   background-color: #e02c6d;
   padding: 5px 10px;
   font-size: 16px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .button a:hover {
   background-color: tomato;
@@ -132,6 +132,15 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 200px;
   grid-row-gap: 100px;
+  transition: all 0.3s ease-in-out;
+}
+.our-partners .partner {
+  transition: all 0.3s ease-in-out;
+  box-shadow: 5px 5px 5px gray;
+  padding: 5px;
+}
+.our-partners .partner:hover {
+  transform: scale(1.5);
 }
 .section-title {
   color: #2d25a0;
@@ -178,6 +187,11 @@ body {
   margin-left: 14px;
   width: 32px;
   height: 32px;
+  transition: all 0.5s ease;
+}
+.social-icons i:hover {
+  transform: scale(1.5);
+  color: #2d25a0;
 }
 
 .footer-section .copyright {
