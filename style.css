@@ -146,6 +146,10 @@ body {
     justify-content: center;
     align-items: center;
   }
+  .banner-left-header h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
   .banner-image {
     margin: 0;
 
@@ -181,7 +185,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: red;
   }
   .players {
     grid-template-columns: repeat(2, 1fr);
