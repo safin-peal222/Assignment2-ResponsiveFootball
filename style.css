@@ -137,9 +137,6 @@ body {
 
 /* Media Queries */
 @media only screen and (max-width: 688px) {
-  header {
-    width: 100%;
-  }
   .top-banner {
     display: flex;
     flex-direction: column;
@@ -150,6 +147,12 @@ body {
     font-size: 30px;
     line-height: 40px;
   }
+  .banner-left {
+    margin-left: 50px;
+  }
+  .banner-left-header {
+    width: 100%;
+  }
   .banner-image {
     margin: 0;
 
@@ -158,9 +161,7 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
   }
-  .banner-left {
-    margin-top: 80px;
-  }
+
   .button {
     margin-top: 10px;
   }
