@@ -65,10 +65,11 @@ body {
 /* top players */
 .top-players,
 .our-partners,
-.Womens-Football {
+.our-committee {
   margin-top: 70px;
 }
-.player-image img {
+.player-image img,
+.member-img img {
   width: 300px;
   height: 256px;
 }
@@ -104,6 +105,26 @@ body {
   font-size: 16px;
   color: #6c6c6c;
   margin-top: 10px;
+}
+
+/* Our Committee */
+.members {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 27px;
+}
+.designation {
+  display: flex;
+  justify-content: center;
+  color: #e02c6d;
+  margin-bottom: 0;
+  margin-top: 0px;
+}
+.designation-name {
+  display: flex;
+  justify-content: center;
+  color: #2d25a0;
 }
 /* Partners Section */
 .our-partners .partners {
@@ -211,6 +232,12 @@ body {
     grid-column-gap: 30px;
     grid-row-gap: 30px;
   }
+  .members {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .section-title {
+    font-size: 20px;
+  }
 }
 
 /* tablet devices */
@@ -229,5 +256,8 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 100px;
     grid-row-gap: 50px;
+  }
+  .members {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
