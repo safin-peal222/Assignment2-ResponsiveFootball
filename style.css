@@ -131,6 +131,7 @@ body {
 
 .footer-section .copyright {
   font-size: 18px;
+  margin-bottom: 63px;
 }
 
 /* Media Queries */
@@ -143,8 +144,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    background-color: red;
   }
   .banner-image {
     margin: 0;
@@ -159,7 +158,30 @@ body {
   .button {
     margin-top: 30px;
   }
-  .main {
-    display: none;
+
+  .players {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .box {
+    box-shadow: none;
+  }
+  .footer-image img {
+    width: 275px;
+    margin-top: 43px;
+  }
+}
+
+/* tablet devices */
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+  .top-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+  }
+  .players {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
